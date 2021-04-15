@@ -1,0 +1,17 @@
+{
+  "name": "Mint Account Snapshot",
+  "action": {},
+  "description": "This will give you an idea of how much cash you 'really have' in mint on your budgets page.",
+  "version": "1.2",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
